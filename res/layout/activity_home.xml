@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Buddy Features"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/buttonSymptomAnalyzer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔍 Symptom Analyzer"
+        android:backgroundTint="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/buttonBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📏 BMI Calculator"
+        android:backgroundTint="@android:color/holo_blue_light"/>
+
+    <Button
+        android:id="@+id/buttonCalorieTracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🍽️ Calorie Tracker"
+        android:backgroundTint="@android:color/holo_orange_light"/>
+
+    <Button
+        android:id="@+id/buttonMedicineReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⏰ Medicine Reminder"
+        android:backgroundTint="@android:color/holo_red_light"/>
+
+    <Button
+        android:id="@+id/buttonHealthTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Health Tips"
+        android:backgroundTint="@android:color/holo_purple"/>
+
+    <Button
+        android:id="@+id/buttonNearbyHospitals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏥 Nearby Hospitals"
+        android:backgroundTint="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚪 Logout"
+        android:backgroundTint="@android:color/holo_red_dark"/>
+</LinearLayout>

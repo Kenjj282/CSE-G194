@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Health Buddy"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your details below:"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewLoginPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonLoginRedirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Here"
+        android:backgroundTint="@android:color/holo_blue_light"/>
+</LinearLayout>

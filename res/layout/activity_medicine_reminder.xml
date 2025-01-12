@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Reminder"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the medicine name and set a reminder time:"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/editTextMedicineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter medicine name" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/buttonSetReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

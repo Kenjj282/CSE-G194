@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Health Buddy</string>
+    <string name="title_activity_nearby_hospitals">NearbyHospitals</string>
+</resources>

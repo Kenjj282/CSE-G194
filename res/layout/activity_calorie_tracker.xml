@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorie Tracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input your food item and quantity:"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/editTextFoodItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter food item" />
+
+    <EditText
+        android:id="@+id/editTextQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter quantity (in grams)"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food Item"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Total Calories"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewTotalCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+</LinearLayout>
